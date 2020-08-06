@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.Withdraw_Successful">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:background="#153EAE"
+        >
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-328dp"
+            android:layout_marginTop="26dp"
+            android:gravity="left"
+            android:src="@drawable/arrow"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="27dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jane Doe"
+                    android:textSize="14sp"
+                    android:textColor="#fff"
+                    app:fontFamily="@font/lato_bold"/>
+                <TextView
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="234561020940832"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/lato_bold" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="25dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Credit"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/lato_bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:text="59.72"
+                        android:fontFamily="@font/lato_bold"
+                        android:textColor="#fff"
+                        android:textSize="30sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GHC"
+                        android:layout_marginLeft="-50dp"
+                        android:textColor="#fff"
+                        android:textSize="14dp"
+                        android:layout_marginTop="-5dp"
+                        android:fontFamily="@font/lato_bold"
+
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Withdrawal"
+            android:textColor="#263746"
+            android:textSize="40sp"
+            android:fontFamily="@font/lato_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Successful"
+            android:textColor="#263746"
+            android:textSize="45sp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/lato_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="13dp"
+            android:alpha="0.7"
+            android:fontFamily="@font/nunito"
+            android:text="Transaction went smoothly. You have your cash and someone else has their credit. Yippie!"
+            android:textColor="#333"
+            android:textSize="16sp"
+            app:fontFamily="@font/nunito" />
+
+
+        <Button
+            android:id="@+id/home"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:text="Back to Home"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
